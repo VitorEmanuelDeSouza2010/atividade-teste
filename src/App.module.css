@@ -1,0 +1,15 @@
+.title{
+    font-size: 4rem;
+    text-shadow: 0px 3px 20px #ffffff;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+
+@media (width <= 768px){
+    .title{
+        font-size: 2rem;
+    }
+
+}
