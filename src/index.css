@@ -1,3 +1,4 @@
+/* mobile first, celular primeiro */
 *{
     margin: 0;
     padding: 0;
@@ -10,15 +11,15 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url('/RAndM.jpg');
+  background-image: url('/RAndM2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-@media (width <= 768px){
+@media (width >= 768px){
   body{
-  background-image: url('/RAndM2.jpg');
+  background-image: url('/RAndM.jpg');
 }
 }
