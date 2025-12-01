@@ -18,15 +18,18 @@ function App() {
 
   return (
     <>
-      <h1 classname={s.title}>Rick and Morty Characters</h1>
+      <h1 className={s.title}>Rick and Morty Characters</h1>
       <main>
+        <div style={{display: "flex", gap: "10px", alignItems: "center", justifyContent: "center"}}>
         <input type="text" value={searchPage} onChange={(e) => setSearchPage(e.target.value)} placeholder='1/42'/>
         <input type="text" value={searchName} onChange={(e) => setSearchName(e.target.value)} place='Procure um personagem'/>
+        </div>
+
 
         <div className={s.wrapCards}>
           {data.map((item, index) => {
             return(
-              <div key={index}>
+              <div key={index} style={{display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "center"}}>
                   <Card image={item.image} name={item.name} species={item.species}/>
               </div>
             )
