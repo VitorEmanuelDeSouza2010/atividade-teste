@@ -1,6 +1,6 @@
 .cardBackground{
-    background-color: rgb(37, 2, 70);
-    color: #ffffff;
+    background-color: #012908;
+    color: #c9ffda;
     padding: 10px;
     border-radius: 10px;
     display: flex;
@@ -39,7 +39,7 @@
     font-size: 2rem;
     letter-spacing: 2px;
     font-weight: 900;
-    text-shadow: 0px 3px 20px #f300fb;
+    text-shadow: 0px 3px 20px #00fb4b;
     width: 100%;
     text-align: center;
 }
@@ -47,6 +47,6 @@
 .cardText{
     width: 100%;
     text-align: center;
-    color: #fa81ea;
+    color: #00fb4b;
     font-size: 22px;
 }
