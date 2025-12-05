@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      {modal !== undefined && <infoModal data={data[modal]} close={() => setModal()}/>}
+      {modal !== undefined && <InfoModal data={data[modal]} close={() => setModal()}/>}
       <h1 className={s.title}>Rick and Morty Characters</h1>
       <main>
         <div style={{display: "flex", gap: "10px", alignItems: "center", justifyContent: "center"}}>
